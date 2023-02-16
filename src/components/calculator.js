@@ -20,7 +20,7 @@ const Calculator = () => {
         <CalcButton value="AC" onClick={() => handleButtonClick('AC')} />
         <CalcButton value="+/-" onClick={() => handleButtonClick('+/-')} />
         <CalcButton value="%" onClick={() => handleButtonClick('%')} />
-        <CalcButton value="&divide;" onClick={() => handleButtonClick('&divide;')} />
+        <CalcButton value="÷" onClick={() => handleButtonClick('÷')} />
       </div>
       <div className="keys">
         <CalcButton value="7" onClick={() => handleButtonClick('7')} />
