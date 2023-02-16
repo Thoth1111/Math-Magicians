@@ -14,7 +14,7 @@ const Calculator = () => {
   return (
     <section className="calc-UI">
       <div id="display">
-        {calcObj.next || calcObj.total || '0'}
+        {calcObj.next || calcObj.operation || calcObj.total || '0'}
       </div>
       <div className="keys">
         <CalcButton value="AC" onClick={() => handleButtonClick('AC')} />
