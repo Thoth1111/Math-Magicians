@@ -1,5 +1,8 @@
 import React from 'react';
 import '../App.css';
+// import operate from '../logic/operate';
+// import calculate from '../logic/calculate';
+import CalcButton from './calc-button';
 
 const Calculator = () => (
   <section className="calc-UI">
@@ -7,33 +10,33 @@ const Calculator = () => (
       <input type="text" id="display" />
     </div>
     <div className="keys">
-      <button type="button" className="calc-Btns">AC</button>
-      <button type="button" className="calc-Btns">+/-</button>
-      <button type="button" className="calc-Btns">%</button>
-      <button type="button" className="calc-Btns">&divide;</button>
+      <CalcButton value="AC" />
+      <CalcButton value="+" />
+      <CalcButton value="%" />
+      <CalcButton value="&" />
     </div>
     <div className="keys">
-      <button type="button" className="calc-Btns">7</button>
-      <button type="button" className="calc-Btns">8</button>
-      <button type="button" className="calc-Btns">9</button>
-      <button type="button" className="calc-Btns">x</button>
+      <CalcButton value="7" />
+      <CalcButton value="8" />
+      <CalcButton value="9" />
+      <CalcButton value="x" />
     </div>
     <div className="keys">
-      <button type="button" className="calc-Btns">4</button>
-      <button type="button" className="calc-Btns">5</button>
-      <button type="button" className="calc-Btns">6</button>
-      <button type="button" className="calc-Btns">-</button>
+      <CalcButton value="4" />
+      <CalcButton value="5" />
+      <CalcButton value="6" />
+      <CalcButton value="-" />
     </div>
     <div className="keys">
-      <button type="button" className="calc-Btns">1</button>
-      <button type="button" className="calc-Btns">2</button>
-      <button type="button" className="calc-Btns">3</button>
-      <button type="button" className="calc-Btns">+</button>
+      <CalcButton value="1" />
+      <CalcButton value="2" />
+      <CalcButton value="3" />
+      <CalcButton value="+" />
     </div>
     <div className="keys">
-      <button type="button" className="calc-Btns">0</button>
-      <button type="button" className="calc-Btns">.</button>
-      <button type="button" className="calc-Btns">=</button>
+      <CalcButton value="0" />
+      <CalcButton value="." />
+      <CalcButton value="=" />
     </div>
   </section>
 );
