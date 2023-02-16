@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => (
-  <div>Header</div>
+  <div>Math-Magician</div>
 );
 
 export default Header;
