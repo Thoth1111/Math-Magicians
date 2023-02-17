@@ -5,16 +5,27 @@ import CalcButton from './calc-button';
 
 const Calculator = () => {
   const [calcObj, setCalcObj] = useState({ total: null, next: null, operation: null });
+  const [clickedBtns, setClickedBtns] = useState('');
 
   const handleButtonClick = (buttonName) => {
     const newCalcObj = calculate(calcObj, buttonName);
     setCalcObj(newCalcObj);
+    if (buttonName === 'AC') {
+      setClickedBtns('');
+    } else {
+      setClickedBtns((prevClickedBtns) => prevClickedBtns + buttonName);
+    }
+  };
+
+  const handleEqualsClick = () => {
+    const result = calculate(calcObj, '=').total;
+    setClickedBtns(result.toString());
   };
 
   return (
     <section className="calc-UI">
       <div id="display">
-        {calcObj.next || calcObj.operation || calcObj.total || '0'}
+        {clickedBtns || 0}
       </div>
       <div className="keys">
         <CalcButton value="AC" onClick={() => handleButtonClick('AC')} />
@@ -43,7 +54,7 @@ const Calculator = () => {
       <div className="keys">
         <CalcButton value="0" onClick={() => handleButtonClick('0')} />
         <CalcButton value="." onClick={() => handleButtonClick('.')} />
-        <CalcButton value="=" onClick={() => handleButtonClick('=')} />
+        <CalcButton value="=" onClick={() => handleEqualsClick()} />
       </div>
     </section>
   );
