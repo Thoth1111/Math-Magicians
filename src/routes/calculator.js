@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import calculate from '../logic/calculate';
-import CalcButton from './calc-button';
+import CalcButton from '../components/calc-button';
 
 const Calculator = () => {
   const [calcObj, setCalcObj] = useState({ total: null, next: null, operation: null });
