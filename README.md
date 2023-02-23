@@ -140,6 +140,6 @@ I would like to acknowledge Microverse for the training required to fulfill this
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://spdx.org/licenses/MIT.html) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
