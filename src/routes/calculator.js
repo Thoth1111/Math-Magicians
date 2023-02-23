@@ -23,7 +23,7 @@ const Calculator = () => {
 
   return (
     <>
-      <h2>It&apos;s Math Time!!</h2>
+      <h2 className="go-time-text">It&apos;s Math Time!!</h2>
       <section className="calc-UI">
         <div id="display">
           {clickedBtns || 0}

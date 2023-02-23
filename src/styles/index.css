@@ -16,9 +16,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://img.freepik.com/free-photo/empty-blackboard-with-stationery_23-2147849677.jpg?w=996&t=st=1677120785~exp=1677121385~hmac=c95cbb38aafb9ca09951e8bde8a2ff2a939569f87e6c0b40c908ea5983e0c092');
   background-size: cover;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   height: 100vh;
   width: 100vw;
+  color: #ffcc34;
 }
 
 header {
@@ -28,9 +29,15 @@ header {
   padding: 0 20px;
 }
 
+header h1 {
+  color: #f5913e;
+  font-size: 40px;
+}
+
 .NavMenu {
   list-style-type: none;
   display: flex;
+  gap: 10px;
   justify-content: flex-end;
 }
 

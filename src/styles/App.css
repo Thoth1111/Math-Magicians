@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+.go-time-text {
+  position: absolute;
+  color: #f5913e;
+  transform: rotate(-35deg);
+  top: 400px;
+  left: 210px;
+}
+
 .calc-UI {
   display: flex;
   flex-direction: column;

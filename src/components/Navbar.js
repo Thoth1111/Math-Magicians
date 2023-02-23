@@ -7,6 +7,7 @@ const Navbar = () => {
     fontSize: '20px',
     color: '#f5913e',
   };
+
   return (
     <>
       <ul className="NavMenu">

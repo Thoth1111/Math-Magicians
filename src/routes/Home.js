@@ -12,8 +12,7 @@ const Home = () => (
       and measure things.
     </p>
     <p>
-      We use math when making decisions, managing budgets, calculating taxes, and analyzing data,
-      to name a few examples. Math provides us with a common language to communicate and understand
+      Math provides us with a common language to communicate and understand
       complex ideas, and it is essential for the advancement of society as a whole.
     </p>
   </article>
