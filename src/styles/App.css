@@ -43,6 +43,11 @@
   outline: none;
 }
 
+.calc-Btns:active {
+  background-color: antiquewhite;
+  font-weight: bold;
+}
+
 .calc-UI > div > button:last-child {
   background-color: #f5913e;
 }
