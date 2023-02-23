@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import '../styles/App.css';
-import Calculator from '../routes/Calculator.js';
+import Calculator from '../routes/Calculator';
 import Header from './Header';
 import Home from '../routes/Home';
 import Quote from '../routes/Quote';
