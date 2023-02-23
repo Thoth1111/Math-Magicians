@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/home.scss'
+import '../styles/home.scss';
 
 const Home = () => (
   <article className="container">

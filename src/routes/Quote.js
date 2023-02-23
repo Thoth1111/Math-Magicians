@@ -3,9 +3,9 @@ import React from 'react';
 const Quote = () => (
   <div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Vulputate sapien nec sagittis aliquam malesuada bibendum.
+    "Mathematics is not about numbers, equations, computations, or algorithms:
+    it is about understanding." 
+    - William Paul Thurston
     </p>
   </div>
 );

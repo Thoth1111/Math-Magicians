@@ -22,6 +22,8 @@ const Calculator = () => {
   };
 
   return (
+    <>
+    <h2>It's Math Time!!</h2>
     <section className="calc-UI">
       <div id="display">
         {clickedBtns || 0}
@@ -56,6 +58,7 @@ const Calculator = () => {
         <CalcButton value="=" onClick={() => handleEqualsClick()} />
       </div>
     </section>
+    </>
   );
 };
 
