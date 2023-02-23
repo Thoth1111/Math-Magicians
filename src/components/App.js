@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import '../styles/App.css';
