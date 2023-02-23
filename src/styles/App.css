@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+.go-time-text {
+  position: absolute;
+  color: #f5913e;
+  transform: rotate(-35deg);
+  top: 55%;
+  left: 14%;
+}
+
 .calc-UI {
   display: flex;
   flex-direction: column;
@@ -41,6 +49,11 @@
   background-color: #e0e0e0;
   border: 0.5px solid #d1d1d1;
   outline: none;
+}
+
+.calc-Btns:active {
+  background-color: antiquewhite;
+  font-weight: bold;
 }
 
 .calc-UI > div > button:last-child {

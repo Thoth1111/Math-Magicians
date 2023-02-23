@@ -11,17 +11,12 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -35,8 +30,6 @@
 
 ### Tech Stack <a name="tech-stack">
 
-</a>
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -47,14 +40,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li>None</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>None</li>
   </ul>
 </details>
 
@@ -72,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,24 +77,9 @@ To get a local copy up and running, follow these steps:
 -Access the repository and fork it
 -OR click 'Code', copy the link and clone the repository to your local environment.
 
-### Prerequisites
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this [repository](https://github.com/Thoth1111/Math-Magicians.git) to your desired folder.
-
-
-### Install
-
-<!-- Install this project with: -->
 
 
 ### Usage
@@ -118,15 +96,6 @@ The page will reload when you make changes.
 
 To run tests, run the following command:
 ### `npm test`
-
-
-### Deployment
-
-<!-- You can deploy this project using: -->
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -158,26 +127,19 @@ Feel free to check the [issues page](https://github.com/Thoth1111/Math-Magicians
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-<!-- If you like this project... -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<!-- I would like to thank... -->
+I would like to acknowledge Microverse for the training required to fulfill this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/ram1117/leaderboard-app/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Thoth1111/Math-Magicians/blob/develop/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
