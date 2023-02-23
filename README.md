@@ -140,6 +140,6 @@ I would like to acknowledge Microverse for the training required to fulfill this
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Thoth1111/Math-Magicians/blob/dev/LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
