@@ -16,6 +16,7 @@
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -28,8 +29,6 @@
 -React
 
 ### Tech Stack <a name="tech-stack">
-
-</a>
 
 <details>
   <summary>Client</summary>
@@ -66,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://thoth1111.github.io/Math-Magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,10 +127,19 @@ Feel free to check the [issues page](https://github.com/Thoth1111/Math-Magicians
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to acknowledge Microverse for the training required to fulfill this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/ram1117/leaderboard-app/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Thoth1111/Math-Magicians/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
