@@ -19,18 +19,18 @@ body {
   backdrop-filter: blur(1px);
   height: 100vh;
   width: 100vw;
-  color: #ffcc34;
+  color: #ffcc34 ;
 }
 
 header {
-  display: flex;
+  display: flex;  
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
 }
 
 header h1 {
-  color: #f5913e;
+  color:#f5913e;
   font-size: 40px;
 }
 
@@ -39,6 +39,11 @@ header h1 {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
+}
+
+.NavMenu li:active {
+  font-size: 24px;
+  color: #ffcc34;
 }
 
 code {
