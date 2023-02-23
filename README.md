@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://thoth1111.github.io/Math-Magicians/)
+Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
