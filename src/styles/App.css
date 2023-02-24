@@ -26,7 +26,7 @@
   display: flex;
 }
 
-#display {
+.display {
   text-align: right;
   width: 360px;
   height: 70px;

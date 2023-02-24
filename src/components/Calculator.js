@@ -25,7 +25,7 @@ const Calculator = () => {
     <>
       <h2 className="go-time-text">It&apos;s Math Time!!</h2>
       <section className="calc-UI">
-        <div id="display">
+        <div className="display">
           {clickedBtns || 0}
         </div>
         <div className="keys">
