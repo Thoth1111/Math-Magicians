@@ -10,7 +10,7 @@ describe("Calculator", () => {
     };
 
     const retObj = {
-      total: 0,
+      total: null,
       next: null,
       operation: null,
     };
@@ -18,7 +18,7 @@ describe("Calculator", () => {
     const buttonName = "AC";
     const obj = calculate(testObj, buttonName);
 
-    expect(obj).toEqual(retObj);
+    expect(obj).toStrictEqual(retObj);
   });
 
   test("returns result obj for =", () => {
